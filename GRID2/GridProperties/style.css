@@ -1,0 +1,46 @@
+body {
+  width: 60em;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+  grid-template-rows: repeat(3, 1fr);
+}
+
+section {
+  padding: 2em;
+  margin: 1em;
+}
+
+#green {
+  background-color: #001a06;
+  grid-column: 1/5;
+  grid-row:5 ;
+}
+
+#orange {
+  background-color: #de7600;
+}
+
+#yellow {
+  background-color: #ffff92;
+}
+
+#red {
+  background-color: #ff919c;
+}
+
+#blue {
+  background-color: #98d2ff;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  background-color: white;
+  padding: 1em;
+  display: block;
+  margin: 1em;
+}
