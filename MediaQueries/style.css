@@ -22,8 +22,6 @@ body {
   height: 60%;
   width: 25%;
 
-  /* margin-top: 4rem;
-  margin-left: 3rem; */
   border-radius: 8px;
 }
 .top {
@@ -73,8 +71,7 @@ body {
   background-color: rgb(147, 146, 146);
   height: 60%;
   width: 25%;
-  /* margin-top: 4rem;
-  margin-left: 2rem; */
+
   border-radius: 8px;
   border: 1px solid grey;
 }
@@ -111,9 +108,6 @@ body {
   height: 60%;
   width: 25%;
 
-  /* margin-top: 4rem;
-  margin-left: 2rem;
-  margin-right: 3rem; */
   border-radius: 8px;
 }
 .sopra {
@@ -145,8 +139,6 @@ body {
     display: flex;
     flex-wrap: wrap;
     height: 100rem;
-
-    /* flex-direction: column; */
   }
   .cat_one {
     width: 75%;
@@ -169,13 +161,10 @@ body {
   .conteiner {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    /* grid-template-rows: repeat(2, 1fr); */
-    
+
     padding: 1rem;
   }
   .cat_one {
-    /* display: flex;
-    flex-direction: column; */
     grid-column: 1;
     width: 100%;
     height: 100%;
@@ -184,7 +173,6 @@ body {
   }
   .top {
     height: 20%;
-    
   }
   .title {
     margin-right: 3rem;
@@ -204,7 +192,7 @@ body {
     height: 100%;
   }
   .sopra {
-     height: 20%;
+    height: 20%;
   }
   .untitle {
     margin-right: 3rem;
